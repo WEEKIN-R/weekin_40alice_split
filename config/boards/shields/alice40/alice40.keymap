@@ -1,0 +1,25 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
+
+/ {
+
+    keymap {
+        compatible = "zmk,keymap";
+
+        // 定义层
+        base_layer {
+            // 层的名称，显示用
+            label = "BASE";
+            // 写键值的地方，建议用网页编辑器
+            bindings = <
+&kp A &kp A &kp A &kp A &kp A &kp A      &kp A &kp A &kp A &kp A &kp A       &kp A
+&kp A &kp A &kp A &kp A &kp A &kp A      &kp A &kp A &kp A &kp A &kp A       &kp A
+&kp A &kp A &kp A &kp A &kp A &kp A      &kp A &kp A &kp A &kp A &kp A &kp A &kp A
+&kp A &kp A		  &kp A       &kp A      &kp A &kp A             &kp A &kp A &kp A
+            >;
+
+        };
+    };
+};
