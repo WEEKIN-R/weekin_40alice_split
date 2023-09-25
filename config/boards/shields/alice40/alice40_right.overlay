@@ -12,7 +12,7 @@
 };
 
 &kscan0 {
-	// 这里引脚和左手引脚反着顺序，如果左右手是镜像排列，需要和左边反着来，如果是按照左右顺序，就不用反着来
+	// 我40分体左右矩阵是镜像的，例如12345    54321这种，但是左右列的gpio一样就可以了
 	col-gpios
 		= <&gpio0 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 		, <&gpio1 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
