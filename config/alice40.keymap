@@ -16,19 +16,19 @@
             // 写键值的地方，建议用网页编辑器https://nickcoutsos.github.io/keymap-editor/
 
             bindings = <
-&kp ESC       &kp Q         &kp W  &kp E         &kp R  &kp T          &kp Y        &kp U  &kp I  &kp O      &kp P                        &kp BACKSPACE
-&kp CAPSLOCK  &kp A         &kp S  &kp D         &kp F  &kp G          &kp H        &kp J  &kp K  &kp L      &kp SEMICOLON                &kp ENTER
-&kp LSHIFT    &kp Z         &kp X  &kp C         &kp V  &kp B          &kp B        &kp N  &kp M  &kp COMMA  &kp DOT        &kp UP_ARROW  &kp RSHIFT
-&kp LCTRL     &kp LEFT_WIN         &kp LEFT_ALT         &lt 1 SPACE    &lt 2 SPACE  &to 3                    &kp LEFT       &kp DOWN      &kp RIGHT
+&kp ESC          &kp Q            &kp W     &kp E           &kp R    &kp T                     &kp Y          &kp U    &kp I          &kp O        &kp P            &kp BACKSPACE
+&kp CAPSLOCK     &kp A            &kp S     &kp D           &kp F    &kp G                     &kp H          &kp J    &kp K          &kp L        &kp SEMICOLON    &kp ENTER
+&kp LSHIFT       &kp Z            &kp X     &kp C           &kp V    &kp B                     &kp B          &kp N    &kp M          &kp COMMA    &kp DOT          &kp RSHIFT
+&kp LCTRL        &kp LEFT_WIN               &kp LEFT_ALT             &lt 1 SPACE               &lt 2 SPACE    &to 3    &kp UP_ARROW   &kp DOWN     &kp LEFT         &kp RIGHT
             >;
         };
 
         Number_layer {
             bindings = <
-&kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6    &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS          &kp EQUAL
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans             &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans     &trans  &trans
-&trans  &trans          &trans          &trans    &trans  &trans                  &trans     &trans  &trans
+&kp N1          &kp N2           &kp N3     &kp N4         &kp N5    &kp N6                    &kp N7         &kp N8   &kp N9         &kp N0       &kp MINUS        &kp EQUAL
+&trans          &trans           &trans     &trans         &trans    &trans                    &trans         &trans   &trans         &trans       &trans           &trans
+&trans          &trans           &trans     &trans         &trans    &trans                    &trans         &trans   &trans         &trans       &trans           &trans
+&trans          &trans                      &trans                   &trans                    &trans         &trans   &trans         &trans       &trans           &trans
             >;
 
             label = "NUMBER";
@@ -36,10 +36,10 @@
 
         F_layer {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7  &kp F8  &kp F9  &kp F10  &kp F11          &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &trans   &trans  &trans
-&trans  &trans          &trans          &trans    &trans  &trans                   &trans   &trans  &trans
+&kp F1          &kp F2           &kp F3     &kp F4         &kp F5    &kp F6                    &kp F7         &kp F8   &kp F9         &kp F10      &kp F11          &kp F12
+&trans          &trans           &trans     &trans         &trans    &trans                    &trans         &trans   &trans         &trans       &trans           &trans
+&trans          &trans           &trans     &trans         &trans    &trans                    &trans         &trans   &trans         &trans       &trans           &trans
+&trans          &trans                      &trans                   &trans                    &trans         &trans   &trans         &trans       &trans           &trans
             >;
 
             label = "F";
@@ -47,10 +47,10 @@
 
         Function_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans                            &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans                            &rgb_ug RGB_TOG
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans           &rgb_ug RGB_BRI  &trans
-&trans  &trans          &trans          &trans    &trans  &trans                  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF
+&trans          &trans           &trans     &trans         &trans    &trans                    &trans         &trans  &trans             &trans            &trans             &trans
+&trans          &trans           &trans     &trans         &trans    &trans                    &trans         &trans  &trans             &trans            &trans             &rgb_ug RGB_TOG
+&trans          &trans           &trans     &trans         &trans    &trans                    &trans         &trans  &trans             &trans            &trans             &trans
+&trans          &trans                      &trans                   &trans                    &trans         &trans  &rgb_ug RGB_BRI    &rgb_ug RGB_BRD   &rgb_ug RGB_EFR    &rgb_ug RGB_EFF
             >;
 
             label = "Function";
