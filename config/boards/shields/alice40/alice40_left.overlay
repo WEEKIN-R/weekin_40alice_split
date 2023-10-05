@@ -7,6 +7,7 @@
 #include "alice40.dtsi"
 
 &kscan0 {
+	col-gpios
 		= <&gpio0 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 		, <&gpio1 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 		, <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
