@@ -7,9 +7,6 @@
 #include "alice40.dtsi"
 
 &kscan0 {
-	// 单侧的列引脚，这里是r2c， 所以列从高拉低(GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)
-	// 如果是c2r，那么列这里是GPIO_ACTIVE_HIGH， 行那里是(GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)
-	col-gpios
 		= <&gpio0 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 		, <&gpio1 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 		, <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>

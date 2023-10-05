@@ -7,14 +7,11 @@
     keymap {
         compatible = "zmk,keymap";
 
-        // 定义层
 
         Base_layer {
-            // 层的名称，显示用
 
             label = "BASE";
 
-            // 写键值的地方，建议用网页编辑器https://nickcoutsos.github.io/keymap-editor/
 
             bindings = <
 &kp ESC       &kp Q         &kp W  &kp E         &kp R  &kp T        &kp Y        &kp U  &kp I         &kp O      &kp P          &kp BACKSPACE

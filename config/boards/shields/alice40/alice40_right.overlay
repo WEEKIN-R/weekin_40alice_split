@@ -7,12 +7,10 @@
 #include "alice40.dtsi"
 
 &default_transform {
-	// 左手行数
 	col-offset = <6>;
 };
 
 &kscan0 {
-	// 我40分体左右矩阵是镜像的，例如12345    54321这种，但是左右列的gpio相反就可以了
 	col-gpios
 		= <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 		, <&gpio1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
